@@ -350,9 +350,9 @@ h1 {
 }
 
 .arrival-title {
-  margin-bottom: 7px;
+  margin-bottom: 8px;
   color: var(--navy);
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   font-weight: 950;
   letter-spacing: 0.05em;
   text-align: center;
@@ -361,17 +361,17 @@ h1 {
 
 .arrival-info ul {
   display: grid;
-  gap: 6px;
+  gap: 7px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .arrival-info li {
-  color: var(--muted);
-  font-size: 0.74rem;
-  font-weight: 750;
-  line-height: 1.32;
+  color: #3c3038;
+  font-size: 0.84rem;
+  font-weight: 850;
+  line-height: 1.36;
   text-align: center;
 }
 
