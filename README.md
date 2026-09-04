@@ -1,48 +1,39 @@
-# Basquete Nova Rosa da Penha - BioLink
+# Basquete Nova Rosa da Penha — BioLink
 
-BioLink estatico criado para centralizar os principais canais, horarios, locais de jogo e parceiros da comunidade Basquete Nova Rosa da Penha, em Cariacica - ES.
+BioLink criado para centralizar os principais canais e informações do Basquete Nova Rosa da Penha, em Cariacica - ES.
 
-Projeto em producao: [biolink-basquete-novarosa.pages.dev](https://biolink-basquete-novarosa.pages.dev/)
+Projeto em produção: [biolink-basquete-novarosa.pages.dev](https://biolink-basquete-novarosa.pages.dev/)
 
 ## Sobre o projeto
 
-O projeto organiza informacoes publicas do Basquete Nova Rosa da Penha em uma pagina simples, direta e responsiva. A proposta e facilitar o acesso ao grupo da comunidade, redes sociais, locais das quadras, orientacoes de chegada e patrocinadores.
+O Basquete Nova Rosa da Penha precisava de uma página simples para reunir informações úteis em um único endereço. O BioLink concentra acesso à comunidade, redes sociais, horários de jogo, localização das quadras, rotas de chegada e parceiros do projeto.
 
-A solucao foi mantida como site estatico para reduzir complexidade, facilitar manutencao e permitir deploy rapido pelo Cloudflare Pages.
+A implementação foi feita como site estático para manter o carregamento leve, a manutenção simples e o deploy direto pelo Cloudflare Pages.
 
 ## Funcionalidades
 
-- Acesso ao grupo do WhatsApp da comunidade.
-- Link para o Instagram do projeto.
-- Horarios dos jogos de domingo e terca-feira.
-- Links de localizacao das quadras no Google Maps.
-- Orientacoes de chegada por linhas de onibus.
-- Area de patrocinadores e parceiros com links publicos.
-- Footer com credito do desenvolvedor.
+- Centralização de links importantes do projeto.
+- Acesso ao grupo do WhatsApp.
+- Link para o Instagram do Basquete Nova Rosa da Penha.
+- Horários dos jogos aos domingos e às terças-feiras.
+- Links de localização das quadras no Google Maps.
+- Orientações de chegada por linhas de ônibus.
+- Lista de patrocinadores e parceiros com links públicos.
 
 ## Tecnologias
 
 - HTML5
 - CSS3
-- JavaScript minimo para inicializacao dos icones Lucide
+- JavaScript mínimo para inicialização de ícones
 - Lucide Icons via CDN
 - Git e GitHub
 - Cloudflare Pages
 
-## Estrutura
+## Estrutura do projeto
 
 ```text
 .
 |-- assets/
-|   |-- calendar-icon.png
-|   |-- ilario-reis-logo.png
-|   |-- instagram-icon.png
-|   |-- newrose-logo-transparent.png
-|   |-- santos-dev-logo.png
-|   |-- sbcustom-logo.png
-|   |-- sixstreet-logo.png
-|   |-- sponsor-icon.png
-|   `-- whatsapp-icon.png
 |-- index.html
 |-- styles.css
 `-- README.md
@@ -50,52 +41,47 @@ A solucao foi mantida como site estatico para reduzir complexidade, facilitar ma
 
 ## Responsividade
 
-O layout foi desenvolvido para funcionar em telas desktop e mobile, com ajustes de grade, espacamento e legibilidade para dispositivos menores.
+O BioLink foi desenvolvido para funcionar bem em diferentes tamanhos de tela, com layout adaptado para navegação em celulares e desktops.
 
 ## Deploy
 
-O deploy utiliza Cloudflare Pages com uma configuracao estatica simples:
+O projeto está publicado via Cloudflare Pages como uma página estática.
+
+Configuração usada no deploy:
 
 - Framework preset: `None`
 - Build command: vazio
 - Build output directory: `/`
 
-Nenhuma credencial, token ou configuracao privada e necessaria no repositorio.
-
 ## Como executar localmente
 
-Por ser um projeto estatico, basta abrir o arquivo `index.html` no navegador.
+Abra o arquivo `index.html` diretamente no navegador.
 
-Tambem e possivel servir a pasta localmente:
+Outra opção é servir a pasta localmente:
 
 ```bash
 python -m http.server
 ```
 
-Depois, acesse `http://localhost:8000`.
+Acesse `http://localhost:8000`.
 
 ## Aprendizados
 
-Este projeto demonstra:
-
-- estruturacao de pagina estatica;
-- organizacao de assets;
-- aplicacao de identidade visual em um produto real;
-- design responsivo sem uso de framework;
-- preparacao de projeto simples para deploy estatico;
-- documentacao de repositorio para portfolio.
+Este projeto demonstra a construção de uma página estática de uso real, com organização de assets, responsividade, aplicação de identidade visual e publicação em uma plataforma de deploy estático.
 
 ## Status
 
-Projeto funcional e em producao via Cloudflare Pages.
+Projeto funcional e em produção via Cloudflare Pages.
 
 ## Assets e direitos
 
-O repositorio utiliza logos e imagens associadas ao Basquete Nova Rosa da Penha, patrocinadores/parceiros e ao desenvolvedor. Antes de tornar o repositorio publico, confirme se todos os assets podem ser exibidos publicamente no GitHub.
+Este projeto utiliza a identidade visual do Basquete Nova Rosa da Penha, além de logotipos e imagens de parceiros e patrocinadores. As marcas, logotipos e demais materiais de terceiros pertencem aos seus respectivos titulares e são utilizados apenas para fins de representação e divulgação.
 
-## Licenca
+Esses materiais não estão licenciados para reutilização, redistribuição ou uso comercial por terceiros.
 
-Este repositorio ainda nao possui uma licenca definida.
+## Licença
+
+Este repositório não possui licença de código aberto. Todos os direitos sobre o código permanecem reservados ao autor, salvo indicação expressa em contrário.
 
 ## Autor
 
